@@ -26,7 +26,7 @@ Plug 'tomasr/molokai'
 " Initialize plugin system
 call plug#end()
 
-set guifont=Source\ Code\ Pro\ Semi-Bold\ 12
+set guifont=Menlo-Regular:h14
 colorscheme molokai
 syntax on
 set guioptions-=m  " menu bar
@@ -47,6 +47,9 @@ set encoding=utf-8
 
 " Set the encoding of files written
 set fileencoding=utf-8
+
+" Show line numbers
+set number
 
 " vim-airline
 let g:airline_theme = 'powerlineish'
